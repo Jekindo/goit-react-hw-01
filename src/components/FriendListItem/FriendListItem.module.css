@@ -1,0 +1,24 @@
+.card {
+  padding: 10px 20px;
+
+  border: 1px solid black;
+  border-radius: 8px;
+
+  text-align: center;
+}
+
+.title {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.status {
+}
+
+.status.isOnline {
+  color: green;
+}
+
+.status.isOffline {
+  color: red;
+}
